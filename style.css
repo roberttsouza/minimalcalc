@@ -1,9 +1,10 @@
 body{
     margin: 2rem;
     background: #000;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
-main{
+section{
     display: grid;
     grid-template-columns: 1fr auto;
     max-width: 800px;
@@ -11,6 +12,11 @@ main{
     border-radius: 4px;
     overflow: hidden;
     margin: 0 auto;
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5%;
 }
 
 #calculator, #result{
@@ -20,7 +26,6 @@ main{
     margin: 0px;
     background-color: #282a2d;
     font-size: 1.25rem;
-    font-family: monospace;
 }
 #calculator{
     resize: none;
@@ -39,4 +44,18 @@ main{
 #total{
     align-self: end;
     margin-top: 1.25rem;
+    cursor: pointer;
+}
+p{
+    color: aliceblue;
+}
+p, a{
+    margin-top: 2px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    align-self: end;
+}
+a{
+    color:#6C63FF;
 }
